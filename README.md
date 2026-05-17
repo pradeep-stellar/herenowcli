@@ -102,6 +102,7 @@ Common tasks are available through `make`:
 
 ```bash
 make build
+make release
 make test
 make fmt
 make lint
