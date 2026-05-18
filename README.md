@@ -9,7 +9,13 @@ for CI and agent workflows.
 
 ## Install
 
-Build the local binary with Cargo:
+Install the latest release with Homebrew:
+
+```bash
+brew install pradeep-stellar/tap/herenow
+```
+
+Or build the local binary from source with Cargo:
 
 ```bash
 cargo build --release
