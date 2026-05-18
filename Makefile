@@ -19,6 +19,9 @@ help:
 build:
 	$(CARGO) build
 
+update-deps:
+	cargo update -p herenow
+
 check: fmt lint test
 
 clean:
